@@ -13,7 +13,7 @@
 ====== Design Palette ====== */
 :root {
   --paper: #EFECE3;
-  --ink: #4A70A9;
+  --ink: #0B244A;
   --font: 100%/1.5 system-ui;
   --space: clamp(6px, 6px + 2vw, 15px);
   --line: 1px solid;
@@ -30,7 +30,7 @@ a {
   padding: var(--space);
   border: var(--line);
   max-width: fit-content;
-  color:#4A70A9;
+  color:#0B244A;
   text-decoration:none;
 }
 a:hover{
