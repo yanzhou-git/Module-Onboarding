@@ -58,12 +58,13 @@ main {
 }
 
 footer {
+  left:0;
   background-color:#8FABD4;
   color:black;
   position: fixed;
   bottom: 0;
   text-align: center;
-  width:100%; /*added width to ensure the footer stretches across the page*/
+  width:100vw; /*added width to ensure the footer stretches across the page*/
 }
 /* ====== Articles Grid Layout ====
 Setting the rules for how articles are placed in the main element.
