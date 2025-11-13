@@ -14,6 +14,7 @@
 :root {
   --paper: #EFECE3;
   --ink: #0B244A;
+  --hovercolor: rebeccapurple; 
   --font: 100%/1.5 system-ui;
   --space: clamp(6px, 6px + 2vw, 15px);
   --line: 1px solid;
@@ -34,7 +35,7 @@ a {
   text-decoration:none;
 }
 a:hover{
-  color:rebeccapurple;
+  color: var(--hovercolor);
 }
 img,
 svg {
@@ -49,7 +50,7 @@ https://www.w3.org/WAI/tutorials/page-structure/regions/
 
 /*added header style*/
 header{
-  text-align:center;
+  text-align: center;
 }
 
 main {
